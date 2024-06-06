@@ -21,7 +21,6 @@
         justify-content: center;
         flex-flow: row wrap;
         align-items: center;
-        position: absolute;
         height: 100vh;
       }
 
@@ -70,7 +69,11 @@
 
       /* Hint: What can you do with a media query and flexbox? */
       @media (max-width: 1250px) {
+        .pricing-container{
+        flex-direction: column;
+        height: 100%; 
         }
+      }
     </style>
   </head>
 
